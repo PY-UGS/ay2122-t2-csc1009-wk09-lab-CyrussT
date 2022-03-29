@@ -29,7 +29,7 @@ public class RandomCharacter {
             case 2:
                 return getRandomDigitCharacter();
             default:
-                throw new IllegalStateException("Unexpected value: " + choice);
+                throw new IllegalStateException("Unexpected value: " + choice); // if choice is not within 0 to 2, throw exception
         }
     }
 
